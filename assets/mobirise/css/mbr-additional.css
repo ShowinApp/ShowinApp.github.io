@@ -1,7 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+
+
 
 
 
@@ -95,7 +99,7 @@ h6,
   background-color: #7e9b9f !important;
 }
 .bg-warning {
-  background-color: #f3c649 !important;
+  background-color: #2b0680 !important;
 }
 .bg-danger {
   background-color: #f28281 !important;
@@ -121,8 +125,8 @@ h6,
   border-color: #32224d !important;
 }
 .btn-secondary {
-  background-color: #bfcecb;
-  border-color: #bfcecb;
+  background-color: #553982;
+  border-color: #553982;
   color: #ffffff;
 }
 .btn-secondary:hover,
@@ -131,14 +135,14 @@ h6,
 .btn-secondary:active,
 .btn-secondary.active {
   color: #ffffff;
-  background-color: #94ada8;
-  border-color: #94ada8;
+  background-color: #32224d;
+  border-color: #32224d;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #94ada8 !important;
-  border-color: #94ada8 !important;
+  background-color: #32224d !important;
+  border-color: #32224d !important;
 }
 .btn-info {
   background-color: #7e9b9f;
@@ -181,8 +185,8 @@ h6,
   border-color: #6a8153 !important;
 }
 .btn-warning {
-  background-color: #f3c649;
-  border-color: #f3c649;
+  background-color: #2b0680;
+  border-color: #2b0680;
   color: #ffffff;
 }
 .btn-warning:hover,
@@ -191,14 +195,14 @@ h6,
 .btn-warning:active,
 .btn-warning.active {
   color: #ffffff;
-  background-color: #e1a90f;
-  border-color: #e1a90f;
+  background-color: #120337;
+  border-color: #120337;
 }
 .btn-warning.disabled,
 .btn-warning:disabled {
   color: #ffffff !important;
-  background-color: #e1a90f !important;
-  border-color: #e1a90f !important;
+  background-color: #120337 !important;
+  border-color: #120337 !important;
 }
 .btn-danger {
   background-color: #f28281;
@@ -242,8 +246,8 @@ h6,
 }
 .btn-secondary-outline {
   background: none;
-  border-color: #85a29c;
-  color: #85a29c;
+  border-color: #271a3b;
+  color: #271a3b;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
@@ -251,14 +255,14 @@ h6,
 .btn-secondary-outline:active,
 .btn-secondary-outline.active {
   color: #ffffff;
-  background-color: #bfcecb;
-  border-color: #bfcecb;
+  background-color: #553982;
+  border-color: #553982;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #bfcecb !important;
-  border-color: #bfcecb !important;
+  background-color: #553982 !important;
+  border-color: #553982 !important;
 }
 .btn-info-outline {
   background: none;
@@ -302,8 +306,8 @@ h6,
 }
 .btn-warning-outline {
   background: none;
-  border-color: #c9970d;
-  color: #c9970d;
+  border-color: #0a011f;
+  color: #0a011f;
 }
 .btn-warning-outline:hover,
 .btn-warning-outline:focus,
@@ -311,14 +315,14 @@ h6,
 .btn-warning-outline:active,
 .btn-warning-outline.active {
   color: #ffffff;
-  background-color: #f3c649;
-  border-color: #f3c649;
+  background-color: #2b0680;
+  border-color: #2b0680;
 }
 .btn-warning-outline.disabled,
 .btn-warning-outline:disabled {
   color: #ffffff !important;
-  background-color: #f3c649 !important;
-  border-color: #f3c649 !important;
+  background-color: #2b0680 !important;
+  border-color: #2b0680 !important;
 }
 .btn-danger-outline {
   background: none;
@@ -350,7 +354,7 @@ h6,
   color: #7e9b9f !important;
 }
 .text-warning {
-  color: #f3c649 !important;
+  color: #2b0680 !important;
 }
 .text-danger {
   color: #f28281 !important;
@@ -362,7 +366,7 @@ h6,
   background-color: #7e9b9f;
 }
 .alert-warning {
-  background-color: #f3c649;
+  background-color: #2b0680;
 }
 .alert-danger {
   background-color: #f28281;
@@ -409,7 +413,7 @@ h6,
 }
 .mbr-plan-header.bg-warning .mbr-plan-subtitle,
 .mbr-plan-header.bg-warning .mbr-plan-price-desc {
-  color: #ffffff;
+  color: #5612f4;
 }
 .mbr-plan-header.bg-danger .mbr-plan-subtitle,
 .mbr-plan-header.bg-danger .mbr-plan-price-desc {
@@ -494,6 +498,29 @@ h6,
 #header1-1 .mbr-section-lead SPAN {
   font-size: 60px;
 }
+#header3-r .mbr-section-title,
+#header3-r .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-r H3 {
+  font-family: 'Raleway', sans-serif;
+}
+#content7-s P {
+  font-size: 17px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+#content7-s DIV {
+  text-align: right;
+}
+#testimonials3-7 .mbr-section-title {
+  color: #efefef;
+}
+#testimonials3-7 .mbr-author-name {
+  color: #ccc;
+}
+#testimonials3-7 .card-block P {
+  text-align: right;
+}
 #header2-0 .mbr-section-title {
   text-align: center;
 }
@@ -502,7 +529,8 @@ h6,
   text-align: center;
 }
 #header2-0 .btn {
-  font-size: 20px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
 }
 #msg-box6-1 .mbr-section-title,
 #msg-box6-1 .lead p {
@@ -526,12 +554,6 @@ h6,
 }
 #features2-5 .mbr-cards-col:nth-child(even) .card-title {
   color: #ffffff;
-}
-#testimonials3-7 .mbr-section-title {
-  color: #efefef;
-}
-#testimonials3-7 .mbr-author-name {
-  color: #ccc;
 }
 #contacts1-8 STRONG {
   color: #efefef;

@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
 
 
@@ -532,5 +534,99 @@ h6,
   color: #ccc;
 }
 #contacts1-8 STRONG {
+  color: #efefef;
+}
+
+
+
+
+
+
+#header4-c .mbr-section-lead {
+  font-family: 'Raleway', sans-serif;
+}
+#header4-c .mbr-section-lead SPAN {
+  font-family: 'Oxygen', sans-serif;
+}
+#deltapieditor-m H1 {
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+  font-size: 48px;
+  text-align: right;
+}
+#header2-p .mbr-section-title {
+  font-size: 20px;
+  text-align: center;
+}
+#deltapieditor-o DIV {
+  font-size: 100px;
+  font-family: 'Indie Flower', cursive;
+  color: #f3c649;
+}
+#menu-9 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-9 .navbar-caption {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+#menu-9 .navbar-toggler {
+  color: #ffffff;
+}
+#menu-9 .link,
+#menu-9 .dropdown-item {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+#menu-9 .link {
+  font-size: 0.75rem;
+}
+#menu-9 .dropdown-item,
+#menu-9 .nav-dropdown-sm .link {
+  font-size: 0.812rem;
+}
+#menu-9 .link:hover,
+#menu-9 .dropdown-item:hover,
+#menu-9 .link:focus,
+#menu-9 .dropdown-item:focus {
+  color: #c0a375;
+}
+#menu-9 .link[aria-expanded="true"],
+#menu-9 .dropdown-menu {
+  background: #040208;
+}
+#menu-9 .nav-dropdown-sm .link:focus,
+#menu-9 .nav-dropdown-sm .link:hover,
+#menu-9 .nav-dropdown-sm .dropdown-item:focus,
+#menu-9 .nav-dropdown-sm .dropdown-item:hover {
+  background: #130a24!important;
+}
+#menu-9 .navbar,
+#menu-9 .nav-dropdown-sm,
+#menu-9 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-9 .nav-dropdown-sm .dropdown-menu {
+  background: #1a0d30;
+}
+#menu-9 .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-9 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-9 .bg-color.transparent.opened .link:hover,
+#menu-9 .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#menu-9 .link[aria-expanded="true"],
+#menu-9 .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
+#menu-9 .close-icon::before,
+#menu-9 .close-icon::after {
+  background-color: #ffffff;
+}
+#contacts1-b STRONG {
   color: #efefef;
 }

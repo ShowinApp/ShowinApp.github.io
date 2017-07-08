@@ -24,12 +24,13 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 32,
+    "uniqCompNum": 33,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
-    "html_before": "<link href=\"https://fonts.googleapis.com/css?family=Jomhuria&subset=arabic\" rel=\"stylesheet\">",
-    "headbody": "<link href=\"https://fonts.googleapis.com/css?family=Jomhuria&subset=arabic\" rel=\"stylesheet\">",
-    "botbody": "<link href=\"https://fonts.googleapis.com/css?family=Jomhuria&subset=arabic\" rel=\"stylesheet\">"
+    "html_before": "<link href=\"https://fonts.googleapis.com/css?family=Mada&subset=arabic\" rel=\"stylesheet\">\r\n\r\n<style>\r\nh1{\r\nfont-family: 'Mada', sans-serif !important ;\r\n}\r\n</style>\r\n",
+    "headbody": "<style>\r\np{\r\nfont-family: 'Mada', sans-serif !important ;\r\n}\r\n</style>\r\n",
+    "botbody": "<style>\r\nbody{\r\nfont-family: 'Mada', sans-serif !important ;\r\n}\r\n</style>\r\n",
+    "globalfooter": "<style>\r\np{\r\nfont-family: 'Mada', sans-serif !important ;\r\n}\r\n</style>\r\n"
   },
   "pages": {
     "index.html": {
@@ -202,35 +203,29 @@
           "text": "&nbsp;Copyright (c) 2017 SHOWIN"
         },
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            "SMALL": {
-              "font-family": "'Jomhuria', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Jomhuria:400,300,700"
-            },
-            "SPAN": {
-              "font-size": "36px"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "header3",
-          "_anchor": "header3-r",
+          "_name": "content2",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "font-size": "25px",
+              "text-align": "center"
+            },
+            "P": {
+              "font-size": "24px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "color": "#475577"
+            }
+          },
+          "_anchor": "content2-w",
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgColor": "#ffffff",
-            "showMeta": true
+            "paddingBottom": "1",
+            "bgColor": "#fff"
           },
-          "title": "<span style=\"font-weight: normal;\"><i>نرم افزار شوین</i></span><br>",
-          "meta": "<span style=\"font-style: normal;\">قابل نصب بر روی پلتفرم&nbsp;های android و IOS</span>"
+          "text": "<blockquote><p><span style=\"font-style: normal;\">نرم افزار شوین</span></p><p><span style=\"font-style: normal;\">قابل نصب بر روی پلتفرم های android و IOS</span></p></blockquote>"
         },
         {
           "_tags": [
@@ -244,14 +239,14 @@
             },
             "P": {
               "font-size": "22px",
-              "font-family": "'Arimo', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700"
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
           },
           "_anchor": "content2-t",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": "0",
+            "paddingBottom": "1",
             "bgColor": "#fff"
           },
           "text": "<blockquote><p><span style=\"font-style: normal;\">دوست دارید فروشگاه، شرکت یا خدمات شما توسط مردم و مشتریانتان به آسانی دیده شود.</span></p><p><span style=\"font-style: normal;\"> ما این کار را برای شما با هزینه بسیار کم انجام می دهیم.</span></p><p><span style=\"font-style: normal;\"> شوین راه حلی نو برای بهتر دیده شدن شما</span></p></blockquote>"
@@ -260,14 +255,18 @@
           "_inherit": "testimonials1",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#efefef"
+              "color": "#efefef",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             },
             ".mbr-author-name": {
               "color": "#ccc"
             },
             ".card-block P": {
               "text-align": "right",
-              "color": "#201143"
+              "color": "#201143",
+              "font-family": "'Source Sans Pro', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700"
             }
           },
           "_tags": [
@@ -337,7 +336,7 @@
             "showTitle": true,
             "showSubtitle": false
           },
-          "title": "نرم افزار شوین",
+          "title": "<span style=\"font-weight: normal;\">نرم افزار شوین</span>",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
         },
         {
@@ -347,16 +346,28 @@
           "_name": "header2",
           "_styles": {
             ".mbr-section-title": {
-              "text-align": "center"
+              "text-align": "center",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             ".mbr-section-text": {
               "font-size": "18px",
-              "text-align": "center"
+              "text-align": "center",
+              "font-family": "'Open Sans Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
             },
             ".btn": {
               "font-size": "18px",
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            ".mbr-section-title I": {
+              "font-family": "'Arimo', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Open Sans Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
             }
           },
           "_anchor": "header2-0",
@@ -402,7 +413,7 @@
               "size": 250
             }
           },
-          "title": "شوین برای IOS در دسترس است<br>",
+          "title": "<span style=\"font-weight: normal;\">شوین برای IOS در دسترس است</span><br>",
           "text": "شوین را برای پلتفرم IOS از طریق مارکت سیب اپ دانلود نمایید<br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sibapp.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">download sib app</a>"
         },
@@ -486,10 +497,16 @@
               "color": "#ffffff"
             },
             ".mbr-cards-col:nth-child(even) .card-text": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
             },
             ".mbr-cards-col:nth-child(even) .card-title": {
               "color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             }
           },
           "_anchor": "features2-5",

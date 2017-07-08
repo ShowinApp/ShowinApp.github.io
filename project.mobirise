@@ -24,7 +24,7 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 29,
+    "uniqCompNum": 30,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "html_before": "<link href=\"https://fonts.googleapis.com/css?family=Luckiest+Guy\" rel=\"stylesheet\">",
@@ -194,7 +194,12 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 SHOWIN."
+          "text": "&nbsp;Copyright (c) 2017 SHOWIN",
+          "_styles": {
+            "P": {
+              "text-align": "right"
+            }
+          }
         },
         {
           "_styles": {
@@ -204,6 +209,10 @@
             "H3": {
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            "SMALL": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "_tags": [
@@ -212,36 +221,33 @@
           "_name": "header3",
           "_anchor": "header3-r",
           "_params": {
-            "paddingTop": 1,
+            "paddingTop": "0",
             "paddingBottom": "1",
             "bgColor": "#ffffff",
             "showMeta": true
           },
           "title": "نرم افزار شوین&nbsp;",
-          "meta": "By John Smith posted July 20, 2016"
+          "meta": "قابل نصب بر روی پلتفرم های android و IOS"
         },
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "content7",
-          "_anchor": "content7-s",
+          "_name": "content2",
+          "_anchor": "content2-t",
           "_params": {
             "paddingTop": "2",
-            "paddingBottom": "3",
-            "bgColor": "#ffffff"
+            "paddingBottom": "2",
+            "bgColor": "#fff"
           },
-          "text1": "<p>شغل خود را در شوین ثبت کنید تا مشخصات شما در دسترس همه کاربران نرم افزار شوین باشد. شوین شیوه ای جدید برای ارتباط فروشندگان، تولیدکنندگان و ارائه دهندگان خدمات با مشتریانشان و عموم مردم می باشد. در شوین به راحتی توسط مردم دیده می شوید. شوین شیوه جدید تبلیغات را برای شما معرفی می نماید. محدودیتی برای معرفی خدمات شما در شوین وجود ندارد. با شوین فراتر از محله و منطقه و شهر خود دیده شوید.&nbsp;</p>",
-          "text2": "<p>شوین آدرس شما را روی نقشه به صورت دقیق نمایش می دهد به این ترتیب مکان شما توسط افرادی که حتی آشنایی با شهر شما ندارند به راحتی توسط نقشه به نمایش درخواهد آمد. دسترسی به آدرس شما در هر شهری امکان پذیر خواهد بود و توسط مکان یابی شوین در هر مکان و شهری مکان شما برای فرد مسیریابی خواهد شد. در مسیریابی شوین سریعترین و بهترین مسیر برای رسیدن انتخاب خواهد شد.&nbsp;</p>",
-          "text3": "با شوین دیگر نگران دیده نشدن فروشگاه یا شرکت و خدمات خود نباشید. ما شیوه ای جدید برای معرفی شما به همه مخاطبانتان ارائه داده ایم. شوین مجموعه کاملی از هر آنچه که برای دیده شدن به آن نیاز دارید به شما ارائه می دهد. در شوین می توانید کانال تلگرام خود را قرار دهید از این طریق مشتریان و مخاطبان می توانند محصولات ارائه شده شما را ببینند. قابلیت نمایش تیزر و ویدئوی محصولات و خدمات شما در شوین قرار داده شده است تا ارتباطی موثرتر با مشتریان و مردم داشته باشید",
+          "text": "<blockquote><p><span style=\"font-style: normal;\">دوست دارید فروشگاه، شرکت یا خدمات شما توسط مخاطبان و مشتریانتان به آسانی دیده شود. ما این کار را برای شما با هزینه بسیار کم انجام می دهیم.</span></p><p><span style=\"font-style: normal;\"> شوین راه حلی نو برای بهتر دیده شدن شما</span></p></blockquote>",
           "_styles": {
-            "P": {
-              "font-size": "17px",
-              "font-family": "'PT Sans Narrow', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
+            "BLOCKQUOTE": {
+              "font-size": "25px",
+              "text-align": "center"
             },
-            "DIV": {
-              "text-align": "right"
+            "P": {
+              "font-size": "22px"
             }
           }
         },
@@ -255,7 +261,8 @@
               "color": "#ccc"
             },
             ".card-block P": {
-              "text-align": "right"
+              "text-align": "right",
+              "color": "#201143"
             }
           },
           "_tags": [
@@ -392,7 +399,7 @@
           },
           "title": "شوین برای IOS در دسترس است<br>",
           "text": "شوین را برای پلتفرم IOS از طریق مارکت سیب اپ دانلود نمایید<br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sibapp.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">دانلود مارکت سیب اپ</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sibapp.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">download sib app</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -979,7 +986,12 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 SHOWIN."
+          "text": "&nbsp;Copyright (c) 2017 SHOWIN",
+          "_styles": {
+            "P": {
+              "text-align": "right"
+            }
+          }
         },
         {
           "_tags": [

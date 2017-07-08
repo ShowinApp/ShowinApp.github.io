@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
@@ -498,6 +498,9 @@ h6,
 #header1-1 .mbr-section-lead SPAN {
   font-size: 60px;
 }
+#footer1-2 P {
+  text-align: right;
+}
 #header3-r .mbr-section-title,
 #header3-r .mbr-section-subtitle {
   text-align: center;
@@ -505,12 +508,15 @@ h6,
 #header3-r H3 {
   font-family: 'Raleway', sans-serif;
 }
-#content7-s P {
-  font-size: 17px;
-  font-family: 'PT Sans Narrow', sans-serif;
+#header3-r SMALL {
+  font-family: 'Roboto', sans-serif;
 }
-#content7-s DIV {
-  text-align: right;
+#content2-t BLOCKQUOTE {
+  font-size: 25px;
+  text-align: center;
+}
+#content2-t P {
+  font-size: 22px;
 }
 #testimonials3-7 .mbr-section-title {
   color: #efefef;
@@ -520,6 +526,7 @@ h6,
 }
 #testimonials3-7 .card-block P {
   text-align: right;
+  color: #201143;
 }
 #header2-0 .mbr-section-title {
   text-align: center;
@@ -648,6 +655,9 @@ h6,
 #menu-9 .close-icon::before,
 #menu-9 .close-icon::after {
   background-color: #ffffff;
+}
+#footer1-a P {
+  text-align: right;
 }
 #contacts1-b STRONG {
   color: #efefef;

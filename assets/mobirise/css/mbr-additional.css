@@ -2,14 +2,16 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
 
 
 
@@ -545,6 +547,10 @@ h6,
   color: #201143;
   font-family: 'Source Sans Pro', sans-serif;
 }
+#testimonials3-7 .mbr-section-title SPAN {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 36px;
+}
 #header2-0 .mbr-section-title {
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -562,7 +568,7 @@ h6,
   font-family: 'Arimo', sans-serif;
 }
 #header2-0 .mbr-section-title SPAN {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 #msg-box6-1 .mbr-section-title,
 #msg-box6-1 .lead p {

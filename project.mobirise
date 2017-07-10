@@ -27,10 +27,10 @@
     "uniqCompNum": 33,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
-    "html_before": "<link href=\"https://fonts.googleapis.com/css?family=Mada&subset=arabic\" rel=\"stylesheet\">\r\n\r\n<style>\r\nh1{\r\nfont-family: 'Mada', sans-serif !important ;\r\n}\r\n</style>\r\n",
-    "headbody": "<style>\r\np{\r\nfont-family: 'Mada', sans-serif !important ;\r\n}\r\n</style>\r\n",
-    "botbody": "<style>\r\nbody{\r\nfont-family: 'Mada', sans-serif !important ;\r\n}\r\n</style>\r\n",
-    "globalfooter": "<style>\r\np{\r\nfont-family: 'Mada', sans-serif !important ;\r\n}\r\n</style>\r\n"
+    "html_before": "<head>\r\n<style>\r\n*{\r\nfont-family: 'El Messiri', sans-serif !important;\r\n}\r\n</style>\r\n</head>\r\n<link href=\"https://fonts.googleapis.com/css?family=Harmattan&subset=arabic\" rel=\"stylesheet\">\r\n<link href=\"https://fonts.googleapis.com/css?family=El+Messiri:400,500&subset=arabic,cyrillic\" rel=\"stylesheet\">",
+    "headbody": "<style>\r\n*{\r\nfont-family: 'El Messiri', sans-serif;!important ;\r\n}\r\n</style>\r\n",
+    "botbody": "<style>\r\nbody{\r\nfont-family: 'El Messiri', sans-serif !important ;\r\n}\r\n</style>\r\n",
+    "globalfooter": "<style>\r\np{\r\nfont-family: 'Harmattan', sans-serif;!important ;\r\n}\r\n</style>\r\n"
   },
   "pages": {
     "index.html": {
@@ -267,6 +267,11 @@
               "color": "#201143",
               "font-family": "'Source Sans Pro', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Open Sans Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700",
+              "font-size": "36px"
             }
           },
           "_tags": [
@@ -366,8 +371,8 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700"
             },
             ".mbr-section-title SPAN": {
-              "font-family": "'Open Sans Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             }
           },
           "_anchor": "header2-0",
@@ -414,7 +419,7 @@
             }
           },
           "title": "<span style=\"font-weight: normal;\">شوین برای IOS در دسترس است</span><br>",
-          "text": "شوین را برای پلتفرم IOS از طریق مارکت سیب اپ دانلود نمایید<br><br>",
+          "text": "<br>شوین را برای پلتفرم IOS از طریق مارکت سیب اپ دانلود نمایید<br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sibapp.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">download sib app</a>"
         },
         {

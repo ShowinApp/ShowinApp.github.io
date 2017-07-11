@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "name": "showinApp",
     "theme": {
       "name": "mobirise3",
@@ -24,7 +24,7 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 37,
+    "uniqCompNum": 52,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "html_before": "<head>\r\n<style>\r\n*{\r\nfont-family: 'El Messiri', sans-serif !important;\r\n}\r\n</style>\r\n</head>\r\n<link href=\"https://fonts.googleapis.com/css?family=Harmattan&subset=arabic\" rel=\"stylesheet\">\r\n<link href=\"https://fonts.googleapis.com/css?family=El+Messiri:400,500&subset=arabic,cyrillic\" rel=\"stylesheet\">",
@@ -36,7 +36,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Showin",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -755,8 +755,8 @@
     },
     "page1.html": {
       "settings": {
-        "title": "Site Builder Title",
-        "meta_descr": "<link href='http://www.fontonline.ir/css/BYekan.css' rel='stylesheet' type='text/css'> "
+        "title": "android version feature",
+        "meta_descr": ""
       },
       "components": [
         {
@@ -888,7 +888,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr2-2000x1331.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr2-2-2000x1328.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -896,7 +896,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.5",
             "overlayColor": "#000",
             "contentAlign": "right",
             "showTitle": true,
@@ -912,6 +912,14 @@
             "Theme"
           ],
           "_name": "features3",
+          "_styles": {
+            "H4": {
+              "font-size": "25px"
+            },
+            "H5": {
+              "font-size": "16px"
+            }
+          },
           "_anchor": "features3-y",
           "_params": {
             "paddingTop": 2,
@@ -1022,15 +1030,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            "H4": {
-              "font-size": "25px"
-            },
-            "H5": {
-              "font-size": "16px"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_tags": [
@@ -1079,7 +1079,7 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
-                "overlayOpacity": "0.1",
+                "overlayOpacity": "0",
                 "contentAlign": "center",
                 "showTitle": true,
                 "title": "",
@@ -1179,6 +1179,225 @@
             "overlayColor": "#444444"
           },
           "text": "&nbsp;Copyright (c) 2017 SHOWIN"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-1c",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/mountains.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#0b0123",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "http://as10.asset.aparat.com/aparat-video/cba809143e1d3d034c7b0a4f3404d4986730983-360p__95701.mp4?direct=1",
+              "aspectratio": "4:3",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "شوین مرزی برای معرفی محصولات شما نمی شناسد &nbsp;",
+          "text": "در صفحه مربوط به هر حرفه امکان قراردادن تیزر تبلیغاتی شما وجود دارد که مشتریان و مخاطبان شما می توانند به راحتی ویدئوی تبلیغی شما را ببینند.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-1e",
+          "_params": {
+            "imageSize": "26",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screenshot-20170711-194648.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "شوین دسترسی به کانال تلگرام شما را برای مشتریانتان آسان تر می کند",
+          "text": "در قسمت پایین هر صفحه محل قرار گیری آدرس کانال تلگرام هر حرفه می باشد که از طریق لمس ایکون تلگرام &nbsp;به کانال تلگرام آن حرفه لینک می گردد. مشاغل می توانند در کانال خود محصولات جدید را قرار دهند. اعضای کانال شما با استفاده از نرم افزار شوین به راحتی افزایش می یابد.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_styles": {
+            "P": {
+              "font-size": "20px"
+            },
+            "H3": {
+              "font-size": "46px"
+            }
+          }
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-2000x3555-800x1422-800x1422.png",
+                "image": "@PROJECT_PATH@/assets/images/1-2000x3555-800x1422.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2-2000x3555-800x1422-800x1422.png",
+                "image": "@PROJECT_PATH@/assets/images/2-2000x3555-800x1422.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/5-2000x3555-800x1422-800x1422.png",
+                "image": "@PROJECT_PATH@/assets/images/5-2000x3555-800x1422.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-20170710-205501-800x1422.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-20170710-205501.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/11-2000x3555-800x1422-800x1422.png",
+                "image": "@PROJECT_PATH@/assets/images/11-2000x3555-800x1422.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/13-2000x3555-800x1422.png",
+                "image": "@PROJECT_PATH@/assets/images/13-2000x3555.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/10-2000x3555-800x1422-800x1422.png",
+                "image": "@PROJECT_PATH@/assets/images/10-2000x3555-800x1422.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/7-2000x3555-800x1422-800x1422.png",
+                "image": "@PROJECT_PATH@/assets/images/7-2000x3555-800x1422.png",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": 1,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#000000",
+            "filterBgColor": true,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery3-1f",
+          "articleLayout": false,
+          "allItem": "All"
         },
         {
           "_tags": [

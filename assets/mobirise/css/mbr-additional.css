@@ -703,6 +703,16 @@ h6,
 #footer1-a P {
   text-align: right;
 }
+#msg-box7-1c .mbr-section-title,
+#msg-box7-1c .lead p {
+  color: #fff;
+}
+#msg-box5-1e P {
+  font-size: 20px;
+}
+#msg-box5-1e H3 {
+  font-size: 46px;
+}
 #contacts1-b STRONG {
   color: #efefef;
 }

@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "name": "showinApp",
     "theme": {
       "name": "mobirise3",
@@ -597,7 +597,7 @@
             "paddingBottom": 2,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1227.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1328.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -605,7 +605,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0",
+            "overlayOpacity": "0.2",
             "overlayColor": "#28324e",
             "columns": 4,
             "showImages": true,
@@ -679,7 +679,7 @@
             }
           },
           "title4": "show video",
-          "subtitle4": "every job can show video",
+          "subtitle4": "all jobs can show video",
           "caption4": "تمامی مشاغل و حرفه ها در شوین می توانند تیزر تبلیغاتی مخصوص خود را داشته باشند.",
           "button4": "<a data-app-btn=\"true\" href=\"https://sibapp.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">دانلود نسخه ios</a>",
           "media5": {
@@ -1503,7 +1503,7 @@
     },
     "page2.html": {
       "settings": {
-        "title": "Website Builder Title",
+        "title": "ios version feature",
         "meta_descr": "Website Builder Description"
       },
       "components": [
@@ -1525,7 +1525,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.2",
             "overlayColor": "#000",
             "contentAlign": "center",
             "showTitle": true,
@@ -1869,7 +1869,7 @@
             "imageSize": "58",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-20170710-2209484.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-20170710-2209489.png",
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "bgVideo": {

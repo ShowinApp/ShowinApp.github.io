@@ -24,8 +24,8 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 63,
-    "versionPublish": "3.12.1",
+    "uniqCompNum": 65,
+    "versionPublish": "4.3.4",
     "path": "@PROJECT_PATH@",
     "html_before": "<head>\r\n<style>\r\n*{\r\nfont-family: 'El Messiri', sans-serif !important;\r\n}\r\n</style>\r\n</head>\r\n<link href=\"https://fonts.googleapis.com/css?family=Harmattan&subset=arabic\" rel=\"stylesheet\">\r\n<link href=\"https://fonts.googleapis.com/css?family=El+Messiri:400,500&subset=arabic,cyrillic\" rel=\"stylesheet\">",
     "headbody": "<style>\r\n*{\r\nfont-family: 'El Messiri', sans-serif;!important ;\r\n}\r\n</style>\r\n",
@@ -100,6 +100,12 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#1a0d30",
             "fontSize": 0.75,
             "fontName": {
@@ -108,13 +114,7 @@
               "css": "'Raleway', sans-serif"
             },
             "fontColor": "#ffffff",
-            "fontHoverColor": "#c0a375",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "#c0a375"
           },
           "logo": {
             "image": {
@@ -152,8 +152,11 @@
           },
           "_params": {
             "autoplay": true,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
             "timeout": 5,
             "slides": [
               {
@@ -204,10 +207,7 @@
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider-x",
           "articleLayout": false
@@ -231,23 +231,23 @@
           },
           "_anchor": "header1-1",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1271.jpg",
-            "bgColor": "#a07e49",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "title": "<span style=\"font-weight: normal;\">SHOWIN</span><br><br>",
           "text": "<span style=\"font-style: normal;\">City in your hands<br></span><br>",
@@ -265,13 +265,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#241639",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#241639",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "&nbsp;Copyright (c) 2017 SHOWIN"
         },
@@ -397,22 +397,22 @@
           ],
           "_anchor": "testimonials3-7",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "count": 3,
+            "showTitle": true,
+            "showSubtitle": false,
             "showImages": false,
             "showName": true,
             "showBio": false,
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x2000.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#553982",
-            "showTitle": true,
-            "showSubtitle": false
+            "overlayOpacity": 0.5
           },
           "title": "<span style=\"font-weight: normal;\">نرم افزار شوین</span>",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
@@ -450,24 +450,24 @@
           },
           "_anchor": "header2-0",
           "_params": {
-            "imageSize": "70",
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#28324e",
-            "inverse": true,
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "inverse": true,
+            "showArrow": true,
+            "imageSize": "70",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#28324e",
+            "overlayOpacity": "0.7"
           },
           "media": {
             "image": {
@@ -515,25 +515,25 @@
           "_name": "msg-box6",
           "_anchor": "msg-box6-1",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
             "imageSize": "70",
             "paddingTop": "3",
             "paddingBottom": "3",
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1330.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -592,27 +592,27 @@
           },
           "_anchor": "features2-5",
           "_params": {
-            "columnsColor": "#190f28",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1328.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.2",
-            "overlayColor": "#28324e",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": true,
+            "columnsColor": "#190f28",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1328.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#28324e",
+            "overlayOpacity": "0.2"
           },
           "media1": {
             "iconFont": {
@@ -726,13 +726,13 @@
             "paddingTop": "3",
             "paddingBottom": "3",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#120921",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#120921",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -822,6 +822,12 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#1a0d30",
             "fontSize": 0.75,
             "fontName": {
@@ -830,13 +836,7 @@
               "css": "'Raleway', sans-serif"
             },
             "fontColor": "#ffffff",
-            "fontHoverColor": "#c0a375",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "#c0a375"
           },
           "logo": {
             "image": {
@@ -888,23 +888,23 @@
           },
           "_anchor": "header1-10",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
             "showArrow": true,
+            "contentAlign": "right",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr2-2-2000x1328.jpg",
-            "bgColor": "#a07e49",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.5",
             "overlayColor": "#000",
-            "contentAlign": "right",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": "0.5"
           },
           "title": "<br><span style=\"font-weight: normal;\">مشخصات نسخه اندروید</span><br>",
           "text": "<span style=\"font-style: normal;\">شوین دارای قابلیت جستجوی هوشمند است. کاربر می تواند عنوان شغل، نوع شغل یا آدرس آن شغل را جستجو نماید. با کلیک بر روی هر شغل اطلاعات آن شغل از قبیل توضیحات کامل، عکس های شغل، شماره های تماس و آدرس شغل نشان داده می شوند.<br>در صفحه اصلی کلیه مشاغل همراه فهرست مشاغل نمایش داده می شود. در نسخه اندروید دو نوع منو برای نمایش فهرست مشاغل طراحی شده که کاربر می تواند به دلخواه یکی را انتخاب کند. محدودیتی برای فهرست مشاغل وجود ندارد و هر شغل در دسته نوع شغل خود دسته بندی می شود. مشاغلی که چند حرفه را شامل می شوند در تمامی فهرست های مربوط به آن شغل مشخص می گردند.<br><br></span><br>",
@@ -925,26 +925,26 @@
           },
           "_anchor": "features3-y",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -1042,8 +1042,11 @@
           "_name": "slider",
           "_params": {
             "autoplay": true,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
             "timeout": "3",
             "slides": [
               {
@@ -1091,10 +1094,7 @@
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
               }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider-q",
           "articleLayout": false
@@ -1116,24 +1116,24 @@
           },
           "_anchor": "header2-p",
           "_params": {
-            "imageSize": "58",
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-20170710-220948.png",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.9",
-            "overlayColor": "#28324e",
-            "inverse": true,
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "showArrow": true
+            "inverse": true,
+            "showArrow": true,
+            "imageSize": "58",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-20170710-220948.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#28324e",
+            "overlayOpacity": "0.9"
           },
           "media": {
             "image": {
@@ -1173,13 +1173,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#241639",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#241639",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "&nbsp;Copyright (c) 2017 SHOWIN"
         },
@@ -1200,25 +1200,25 @@
           "_name": "msg-box7",
           "_anchor": "msg-box7-1c",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "imageSize": 50,
             "paddingTop": "6",
             "paddingBottom": "6",
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@THEME_PATH@/components/_images/mountains.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.5",
             "overlayColor": "#0b0123",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": "0.5"
           },
           "media": {
             "image": {
@@ -1257,25 +1257,25 @@
           },
           "_anchor": "msg-box5-1e",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "imageSize": "26",
             "paddingTop": "1",
             "paddingBottom": "1",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -1310,8 +1310,15 @@
           ],
           "_name": "gallery3",
           "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 1,
             "paddingTop": 1,
             "paddingBottom": 1,
+            "filterBgColor": true,
+            "bgColor": "#000000",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -1393,14 +1400,7 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ],
-            "spacing": 1,
-            "showText": false,
-            "filter": false,
-            "bgColor": "#000000",
-            "filterBgColor": true,
-            "fullWidth": true,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery3-1f",
           "articleLayout": false,
@@ -1433,24 +1433,24 @@
           "_name": "msg-box2",
           "_anchor": "msg-box2-1g",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
             "paddingTop": "4",
             "paddingBottom": "4",
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr2-3-2000x1328.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": true,
-            "showButtons": true,
-            "showTitle": true,
-            "showText": true
+            "overlayOpacity": 0.5
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://cafebazaar.ir/app/com.example.soran.myapp/?l=fa\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">دانلود نسخه اندروید شوین</a>",
           "title": "دانلود نسخه اندروید نرم افزار شوین",
@@ -1471,13 +1471,13 @@
             "paddingTop": "3",
             "paddingBottom": "3",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#120921",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#120921",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -1512,29 +1512,6 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-1k",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr2-2000x1334.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.2",
-            "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "مشخصات نسخه ios",
-          "text": "<span style=\"font-style: normal;\">نسخه ios برنامه شوین از طریق مارکت سیب اپ قابل دانلود می باشد.&nbsp;شوین دارای قابلیت جستجوی هوشمند است. کاربر می تواند عنوان شغل، نوع شغل یا آدرس آن شغل را جستجو نماید. با کلیک بر روی هر شغل اطلاعات آن شغل از قبیل توضیحات کامل، عکس های شغل، شماره های تماس و آدرس شغل نشان داده می شوند.&nbsp;در صفحه اصلی کلیه مشاغل همراه فهرست مشاغل نمایش داده می شود. در نسخه ios قسمت مشاغل در بالای صفحه قرار دارند و در قسمت پایین صفحه فهرست مشاغل را می توان مشاهده نمود.&nbsp;محدودیتی برای فهرست مشاغل وجود ندارد و هر شغل در دسته نوع شغل خود دسته بندی می شود. مشاغلی که چند حرفه را شامل می شوند در تمامی فهرست های مربوط به آن شغل مشخص می گردند. از طریق نمایش نقشه می توان تمامی مشاغل ثبت نام شده در نرم افزار را با هم روی نقشه مشاهده نمود.</span>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_styles": {
             ".mbr-section-lead": {
               "color": "#ffffff",
@@ -1543,7 +1520,30 @@
             ".mbr-section-title": {
               "text-align": "right"
             }
-          }
+          },
+          "_anchor": "header1-1k",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr2-2000x1334.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.2"
+          },
+          "title": "مشخصات نسخه ios",
+          "text": "<span style=\"font-style: normal;\">نسخه ios برنامه شوین از طریق مارکت سیب اپ قابل دانلود می باشد.&nbsp;شوین دارای قابلیت جستجوی هوشمند است. کاربر می تواند عنوان شغل، نوع شغل یا آدرس آن شغل را جستجو نماید. با کلیک بر روی هر شغل اطلاعات آن شغل از قبیل توضیحات کامل، عکس های شغل، شماره های تماس و آدرس شغل نشان داده می شوند.&nbsp;در صفحه اصلی کلیه مشاغل همراه فهرست مشاغل نمایش داده می شود. در نسخه ios قسمت مشاغل در بالای صفحه قرار دارند و در قسمت پایین صفحه فهرست مشاغل را می توان مشاهده نمود.&nbsp;محدودیتی برای فهرست مشاغل وجود ندارد و هر شغل در دسته نوع شغل خود دسته بندی می شود. مشاغلی که چند حرفه را شامل می شوند در تمامی فهرست های مربوط به آن شغل مشخص می گردند. از طریق نمایش نقشه می توان تمامی مشاغل ثبت نام شده در نرم افزار را با هم روی نقشه مشاهده نمود.</span>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
@@ -1560,26 +1560,26 @@
           },
           "_anchor": "features3-1l",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -1677,8 +1677,11 @@
           "_name": "slider",
           "_params": {
             "autoplay": true,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
             "timeout": 5,
             "slides": [
               {
@@ -1723,10 +1726,7 @@
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider-1m",
           "articleLayout": false
@@ -1788,6 +1788,12 @@
           "_name": "menu",
           "_anchor": "menu-1h",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#1a0d30",
             "fontSize": 0.75,
             "fontName": {
@@ -1796,13 +1802,7 @@
               "css": "'Raleway', sans-serif"
             },
             "fontColor": "#ffffff",
-            "fontHoverColor": "#c0a375",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "#c0a375"
           },
           "logo": {
             "image": {
@@ -1839,13 +1839,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#241639",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#241639",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "&nbsp;Copyright (c) 2017 SHOWIN"
         },
@@ -1866,24 +1866,24 @@
           },
           "_anchor": "header2-1n",
           "_params": {
-            "imageSize": "58",
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-20170710-2209489.png",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.9",
-            "overlayColor": "#28324e",
-            "inverse": true,
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "showArrow": true
+            "inverse": true,
+            "showArrow": true,
+            "imageSize": "58",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-20170710-2209483.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#28324e",
+            "overlayOpacity": "0.9"
           },
           "media": {
             "image": {
@@ -1928,25 +1928,25 @@
           "_name": "msg-box7",
           "_anchor": "msg-box7-1o",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "imageSize": 50,
             "paddingTop": "6",
             "paddingBottom": "6",
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-6-2000x1333.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.5",
             "overlayColor": "#0b0123",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": "0.5"
           },
           "media": {
             "image": {
@@ -1977,8 +1977,15 @@
           ],
           "_name": "gallery3",
           "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 1,
             "paddingTop": 1,
             "paddingBottom": 1,
+            "filterBgColor": true,
+            "bgColor": "#000000",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -2060,14 +2067,7 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ],
-            "spacing": 1,
-            "showText": false,
-            "filter": false,
-            "bgColor": "#000000",
-            "filterBgColor": true,
-            "fullWidth": true,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery3-1p",
           "articleLayout": false,
@@ -2100,24 +2100,24 @@
           "_name": "msg-box2",
           "_anchor": "msg-box2-1q",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
             "paddingTop": "4",
             "paddingBottom": "4",
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1210.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.3",
             "overlayColor": "#222",
-            "inverse": true,
-            "showButtons": true,
-            "showTitle": true,
-            "showText": true
+            "overlayOpacity": "0.3"
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sibapp.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">دانلود نسخه ios شوین</a>",
           "title": "دانلود نسخه ios نرم افزار شوین",
@@ -2138,13 +2138,13 @@
             "paddingTop": "3",
             "paddingBottom": "3",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#120921",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#120921",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -2165,6 +2165,44 @@
           "text1": "<strong>Address</strong><br>boukan - iran",
           "text2": "<strong>Contacts</strong><br>\nEmail: soran.sgh@gmail.com<br>\nPhone: +98 9143828247<br>",
           "text3": "<strong>Links</strong><br>\n<a class=\"text-white\" href=\"https://cafebazaar.ir/app/com.example.soran.myapp/?l=fa\" target=\"_blank\">Download for a</a>ndroid<br>\n<a class=\"text-white\" href=\"https://sibapp.com/\" target=\"_blank\">Download for i</a>phone"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "SOLID COLOR INTRO",
+          "text": "Full screen intro with color background.<br>Buttons, text and title are aligned to the left.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"assets/files/ShowinDb.sqlite\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-1s"
         }
       ]
     }

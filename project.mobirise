@@ -1875,7 +1875,7 @@
             "showArrow": true,
             "imageSize": "58",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-20170710-2209487.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/screenshot-20170710-2209480.png",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",

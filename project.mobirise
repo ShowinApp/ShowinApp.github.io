@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page3.html",
+    "currentPage": "index.html",
     "name": "showinApp",
     "theme": {
       "name": "mobirise3",
@@ -25,7 +25,7 @@
     "noImageResize": "",
     "versionFirst": "3.12.1",
     "uniqCompNum": 69,
-    "versionPublish": "4.3.4",
+    "versionPublish": "4.6.5",
     "path": "@PROJECT_PATH@",
     "html_before": "<head>\r\n<style>\r\n*{\r\nfont-family: 'El Messiri', sans-serif !important;\r\n}\r\n</style>\r\n</head>\r\n<link href=\"https://fonts.googleapis.com/css?family=Harmattan&subset=arabic\" rel=\"stylesheet\">\r\n<link href=\"https://fonts.googleapis.com/css?family=El+Messiri:400,500&subset=arabic,cyrillic\" rel=\"stylesheet\">",
     "headbody": "<style>\r\n*{\r\nfont-family: 'El Messiri', sans-serif;!important ;\r\n}\r\n</style>\r\n",
